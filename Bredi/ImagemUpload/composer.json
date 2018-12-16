@@ -1,0 +1,25 @@
+{
+    "name": "bredi/imagemupload",
+    "description": "",
+    "authors": [
+        {
+            "name": "Rodrigo de Souza",
+            "email": "rd7.rodrigo@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bredi\\ImagemUpload\\Providers\\ImagemUploadServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Bredi\\ImagemUpload\\": ""
+        }
+    }
+}

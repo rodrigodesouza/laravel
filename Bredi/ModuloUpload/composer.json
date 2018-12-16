@@ -1,0 +1,25 @@
+{
+    "name": "bredi/moduloupload",
+    "description": "",
+    "authors": [
+        {
+            "name": "Rodrigo de Souza",
+            "email": "rd7.rodrigo@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bredi\\ModuloUpload\\Providers\\ModuloUploadServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Bredi\\ModuloUpload\\": ""
+        }
+    }
+}
